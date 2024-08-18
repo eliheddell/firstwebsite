@@ -1,0 +1,139 @@
+body{
+    text-align: center;
+    display: block;
+    margin:0;
+
+}
+h1{
+    color: #E7FBE6;
+    font-family: "PT Serif" ;
+    font-size: 5.625rem;
+    letter-spacing: 10px;
+    z-index: 1;
+    margin-bottom: 0;
+}
+.top-container{
+    padding-top: 150px;
+    background-color: #86AB89;
+    padding-bottom:0;
+   text-align: center;
+
+}
+.sub-heading{
+    color: #CBE2B5;
+    z-index: 1;
+    left: 50%;
+    margin-bottom: 0;
+}
+.h1{
+    display: absolute;
+    top:50%;
+    left: 50%;
+    z-index: 1;
+    margin: 50px auto 0 auto;
+}
+
+img{
+    padding-bottom:0;
+    height: auto;
+    width: 100%;
+    max-width: 600px;
+    z-index: 0;
+
+}
+.pt-serif-regular {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+ .sub-heading {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  @media(max-width: 600px){
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 1rem;
+    }
+  }
+
+.middle-container{
+    display: block;
+  
+}
+
+
+  .pfp{
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    margin-top: 20px;
+  }
+  .hello{
+    color:#86AB89;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .intro{
+    width: 30%;
+    margin: auto;
+    
+  }
+  hr{
+    border: dotted #86AB89 10px;
+    border-bottom: none;
+    width: 6%;
+    margin: 100px auto;
+  }
+
+h3{
+    font-family: "Roboto Mono", monospace;
+    color: #CBE2B5;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1fr 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+}
+
+  .img1, .img2{
+    height: 250px;
+    width: 250px;
+  }
+  .button1{
+    background-color:#86AB89;
+    height: 30px;
+    width: 90px;
+    border: 0;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  .footer{
+    background-color:#86AB89;
+    padding-top: 25px;
+    padding-bottom: 50px;
+  }
+  a:hover{
+    color: white;
+    
+  }
+a{
+    font-family:"Roboto Mono", monospace;
+    color:#CBE2B5;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.copyright{
+    color: #E7FBE6;
+    padding-top: 15px;
+}
